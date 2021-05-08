@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: black;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+header ul li a:hover {
+    background: #fff;
+    color: black;
+}
+
+.bodyContainer {
+    width: 100%;
+    height:     90%;
+    position: absolute;
+    background-size: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    background-image: url('https://cdn.discordapp.com/attachments/805944778926850110/840622635453120552/city_gif.gif'); 
+    background-repeat: repeat; 
+}
+
+.trFilter {
+    position: relative;
+    z-index:0;
+    height: 85vh;
+    width: 90%;
+    margin:15px;
+    opacity: 0.6;
+    background: black;
+    border: 1.5px solid #D79280;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 550%;
+}
+
+p {
+    font-size: 40px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: black;
+    font-size: 1.5em;
+    
+}
+

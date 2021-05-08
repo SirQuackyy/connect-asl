@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'reglisse';
+    src: url('../../fonts/Reglisse.otf');
+}
+
+#webcam{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+
+#gesture-canvas{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+    filter: FlipH;
+    z-index: 9;
+}
+
+#webcam-container {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#translated {
+    font-family: 'reglisse';
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 100px;
+    color: #ffd900;
+    text-align: center;
+}
