@@ -1,12 +1,10 @@
-import React, {useRef, useState, useEffect} from 'react';
-import * as tfjs from '@tensorflow/tfjs';
+import React, {useRef, useEffect} from 'react';
 import * as handpose from '@tensorflow-models/handpose';
 import Webcam from 'react-webcam';
 import * as fingerpose from 'fingerpose';
-import {Text, Heading, Button, Image, Stack, Container, Box, VStack, ChakraProvider} from '@chakra-ui/react';
+import {Text, Box, ChakraProvider} from '@chakra-ui/react';
 import './app.css';
 import '@tensorflow/tfjs-backend-webgl';
-import {RiCameraFill, RiCameraOffFill} from "react-icons/ri";
 import signs from '../signlang';
 
 export default function App() {
@@ -92,7 +90,7 @@ export default function App() {
                     signs.kSign, signs.lSign, signs.mSign, signs.nSign, signs.oSign, 
                     signs.pSign, signs.qSign, signs.rSign, signs.sSign, signs.tSign, 
                     signs.uSign, signs.vSign, signs.wSign, signs.xSign, signs.ySign, 
-                    signs.zSign
+                    signs.zSign, signs.helloSign, signs.nameSign
                 ]);
                 const estimates  = await GE.estimate(hands[0].landmarks, 6.5);
 

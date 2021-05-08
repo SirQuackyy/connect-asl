@@ -27,6 +27,11 @@ import {
     zSign
 } from './letters';
 
+import {
+    helloSign,
+    nameSign
+} from './phrases'
+
 const signs = {
     aSign, 
     bSign, 
@@ -53,7 +58,9 @@ const signs = {
     wSign,
     xSign,
     ySign,
-    zSign
+    zSign,
+    helloSign,
+    nameSign
 }
 
 export default signs;
