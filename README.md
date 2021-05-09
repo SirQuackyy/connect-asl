@@ -1,16 +1,31 @@
+# Installation
+1. **Clone the repository**
 
-Duolingo
+  ```shell
+  # copy the repo to your machine
 
-Signlingo
-DuoSign
-Singling
+  git clone https://github.com/AirWolfXD/connect-asl.git
+  ```
 
-Google Translate
+2. **Start the project**
 
-OopChat
+  ```shell
+  # move to the project folder and install all dependencies
+  
+  cd connect-asl
+  npm install
+  ```
 
-Spanish Dictionary
+3. **Run the project on your local machine**
 
-ConnectASL
-MegASL
-UltrASL
+  ```shell
+  # run Gatsby
+
+  npm run start
+  ```
+
+4. **The project is live 🚀**
+  
+  Your project is live and running at `http://localhost:8000`
+
+  You can edit the core program at `src/pages/app.js`
