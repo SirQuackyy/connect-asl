@@ -1,3 +1,7 @@
+#Connect-ASL
+Translates American Sign Language into English and speaks it out using text-to-speech
+(Currently only the alphabet and a few basic hand gestures work)
+
 # Installation
 1. **Clone the repository**
 
